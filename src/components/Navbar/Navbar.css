@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.appbar{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+}
