@@ -1,7 +1,4 @@
-.body{
-    min-height: 90vh;
-}
-.body{
+.bodyContainer{
     /* background-color: antiquewhite; */
-    display: flex;
+    width: 100%;
 }

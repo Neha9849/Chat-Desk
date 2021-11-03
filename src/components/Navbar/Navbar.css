@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .appbar{
-    /* background-color: bisque; */
-    display: flex;
-    justify-content: space-between;
+    background-color: rgb(6, 2, 35);
+    color:white ;
+    border-bottom: 1px solid #1976d24a;
 }

@@ -5,8 +5,12 @@
 }
 .sidebar{
     width: 300px;
+    min-height: 100vh;
     position:relative;
     left: 0;
-    background-color:white;
-    color: rgb(16, 98, 213);
+    border-right: 1px solid #1976d24a;
+}
+.sidebarNav{
+    background-color: rgb(6,2,35) !important;
+    border-bottom: 1px solid #1976d24a;
 }
