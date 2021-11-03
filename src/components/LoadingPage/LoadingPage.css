@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.898);
+}
+@keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+.iconBox{
+   display: flex;
+   justify-content: center;
+}
+.iconAni{
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.msgIcon{
+    font-size: 100px ;
+    color: #4153af;
+}
+.container h1{
+    color: #4153af;
+    font-size: 50px;
+}
