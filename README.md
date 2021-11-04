@@ -11,7 +11,8 @@ git clone https://github.com/your-username/chat-desk.git
 ```
 npm install
 ```
-4. Start the  Live-server
+4. Start the frontend react server
 ``` 
+cd client
 npm start
 ```
