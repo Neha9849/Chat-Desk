@@ -22,6 +22,7 @@ npm install
 npm start
 ```
 In new terminal,
+-
 5. Install client dependencies and start the backend server
 ```
 cd client
