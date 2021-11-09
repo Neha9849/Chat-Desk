@@ -30,10 +30,10 @@ router.post(
         return res.status(400).json({ errors: [{ msg: "user alrdy exists" }] });
       }
       //get gravator
-      const avatar = gravatar.url("nehadeekonda9849@gmail.com", {
+      const avatar = gravatar.url(email, {
         s: "400",
         r: "pg",
-        d: "wavatar",
+        d: "retro",
       });
       console.log(avatar);
       let userDb = new User({
