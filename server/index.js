@@ -11,6 +11,7 @@ app.get('/',(req,res)=>{
   res.send('home')
 })
 app.use('/api/users',require('./routes/api/users'))
+app.use('/api/auth',require('./routes/api/auth'))
 //port
 const PORT = process.env.PORT || 5000;
 //strt server
