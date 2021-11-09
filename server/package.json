@@ -4,8 +4,8 @@
   "description": "A chat app using MERN stack.",
   "main": "index.js",
   "scripts": {
-   "start" : "node index.js",
-   "server" : "nodemon index.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "author": "Neha Deekonda",
   "license": "MIT",
@@ -15,6 +15,7 @@
     "config": "^3.3.6",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-validator": "^6.13.0",
     "is-empty": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.12",
